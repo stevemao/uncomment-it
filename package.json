@@ -1,0 +1,46 @@
+{
+  "name": "uncomment-it",
+  "version": "0.0.0",
+  "description": "Uncomment html, js or css",
+  "homepage": "https://github.com/stevemao/uncomment-it",
+  "author": {
+    "name": "Steve Mao",
+    "email": "maochenyan@gmail.com",
+    "url": "https://github.com/stevemao"
+  },
+  "repository": "stevemao/uncomment-it",
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "uncomment-it",
+    "uncomment",
+    "css",
+    "html",
+    "js",
+    "comment",
+    "comments",
+    "block"
+  ],
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "comment-regex": "^1.0.0",
+    "concat-stream": "^1.4.8",
+    "html-comment-regex": "^1.1.0",
+    "meow": "^3.1.0"
+  },
+  "devDependencies": {
+    "jscs": "^1.13.1",
+    "jshint": "^2.7.0",
+    "mocha": "*"
+  },
+  "scripts": {
+    "lint": "jshint *.js test/test.js --exclude node_modules && jscs *.js test/test.js",
+    "test": "npm run-script lint && mocha"
+  },
+  "bin": {
+    "uncomment-it": "cli.js"
+  }
+}
