@@ -2,7 +2,7 @@
 
 > Uncomment html, js or css
 
-**NOTE**: This is using regex and therefore is pretty fragile. Created for simplicity and perf reasons.
+**NOTE**: This is using regex and therefore is pretty fragile. Created for simplicity and perf reasons. Read more at https://github.com/sindresorhus/comment-regex/issues/1.
 
 **HINT**: In order to make it work properly adjust some space around the comments might help.
 
